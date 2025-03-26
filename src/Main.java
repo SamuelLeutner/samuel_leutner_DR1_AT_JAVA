@@ -4,6 +4,7 @@ import Parte2.PasswordValidation;
 import Parte2.BankLoanSimulator;
 import Parte3.Student;
 import Parte3.Vehicle;
+import Parte4.Employees;
 
 import java.util.Scanner;
 
@@ -121,7 +122,7 @@ public class Main {
                     System.out.println("Retornando...");
                     return;
                 case 1:
-                    // TODO: Exercício: 8 Sistema de Funcionários
+                    Employees.main(null);
                     break;
                 case 2:
                     // TODO: Exercício: 9 Conta Bancária com Encapsulamento
