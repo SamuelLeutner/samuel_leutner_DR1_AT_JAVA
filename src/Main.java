@@ -1,3 +1,4 @@
+import Parte2.CGISimulator;
 import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
 import Parte2.BankLoanSimulator;
@@ -69,7 +70,7 @@ public class Main {
                     BankLoanSimulator.main(null);
                     break;
                 case 4:
-                    // TODO: Exercício 5: Criando um Programa CGI em Java
+                    CGISimulator.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida!");
