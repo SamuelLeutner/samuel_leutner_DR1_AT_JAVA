@@ -1,3 +1,4 @@
+import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
 
 import java.util.Scanner;
@@ -61,7 +62,7 @@ public class Main {
                     PasswordValidation.main(null);
                     break;
                 case 2:
-                    // TODO: Exercício 3: Calculadora de Impostos
+                    IncomeTaxCalculator.main(null);
                     break;
                 case 3:
                     // TODO: Exercício 4: Simulador de Empréstimo Bancário
