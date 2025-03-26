@@ -1,3 +1,5 @@
+import Parte2.PasswordValidation;
+
 import java.util.Scanner;
 
 public class Main {
@@ -56,7 +58,7 @@ public class Main {
                     System.out.println("Retornando...");
                     return;
                 case 1:
-                    // TODO: Exercício 2: Validação de Senha Segura
+                    PasswordValidation.main(null);
                     break;
                 case 2:
                     // TODO: Exercício 3: Calculadora de Impostos
