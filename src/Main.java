@@ -2,6 +2,7 @@ import Parte2.CGISimulator;
 import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
 import Parte2.BankLoanSimulator;
+import Parte3.Vehicle;
 
 import java.util.Scanner;
 
@@ -93,7 +94,7 @@ public class Main {
                     System.out.println("Retornando...");
                     return;
                 case 1:
-                    // TODO: Exercício: 6 Cadastro de Veículos
+                    Vehicle.main(null);
                     break;
                 case 2:
                     // TODO: Exercício: 7 Gerenciador de Alunos
