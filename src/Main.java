@@ -1,5 +1,6 @@
 import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
+import Parte2.BankLoanSimulator;
 
 import java.util.Scanner;
 
@@ -65,7 +66,7 @@ public class Main {
                     IncomeTaxCalculator.main(null);
                     break;
                 case 3:
-                    // TODO: Exercício 4: Simulador de Empréstimo Bancário
+                    BankLoanSimulator.main(null);
                     break;
                 case 4:
                     // TODO: Exercício 5: Criando um Programa CGI em Java
