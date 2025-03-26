@@ -2,6 +2,7 @@ import Parte2.CGISimulator;
 import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
 import Parte2.BankLoanSimulator;
+import Parte3.Student;
 import Parte3.Vehicle;
 
 import java.util.Scanner;
@@ -97,7 +98,7 @@ public class Main {
                     Vehicle.main(null);
                     break;
                 case 2:
-                    // TODO: Exercício: 7 Gerenciador de Alunos
+                    Student.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida!");
