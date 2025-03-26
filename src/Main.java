@@ -1,11 +1,12 @@
+import Parte2.BankLoanSimulator;
 import Parte2.CGISimulator;
 import Parte2.IncomeTaxCalculator;
 import Parte2.PasswordValidation;
-import Parte2.BankLoanSimulator;
 import Parte3.Student;
 import Parte3.Vehicle;
 import Parte4.Account;
 import Parte4.Employees;
+import Parte5.LotterySimulation;
 import Parte5.PurchaseRecord;
 
 import java.util.Scanner;
@@ -154,7 +155,7 @@ public class Main {
                     PurchaseRecord.main(null);
                     break;
                 case 2:
-                    // TODO: Exercício: 11 Simulação de Loteria
+                    LotterySimulation.main(null);
                     break;
                 case 3:
                     // TODO: Exercício: 12 Sistema de Chat Simples com Arrays
