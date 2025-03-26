@@ -6,6 +6,7 @@ import Parte3.Student;
 import Parte3.Vehicle;
 import Parte4.Account;
 import Parte4.Employees;
+import Parte5.PurchaseRecord;
 
 import java.util.Scanner;
 
@@ -150,7 +151,7 @@ public class Main {
                     System.out.println("Retornando...");
                     return;
                 case 1:
-                    // TODO: Exercício: 10 Registro de Compras em Arquivo
+                    PurchaseRecord.main(null);
                     break;
                 case 2:
                     // TODO: Exercício: 11 Simulação de Loteria
