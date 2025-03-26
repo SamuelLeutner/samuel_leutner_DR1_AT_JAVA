@@ -6,6 +6,7 @@ import Parte3.Student;
 import Parte3.Vehicle;
 import Parte4.Account;
 import Parte4.Employees;
+import Parte5.Chat;
 import Parte5.LotterySimulation;
 import Parte5.PurchaseRecord;
 
@@ -158,7 +159,7 @@ public class Main {
                     LotterySimulation.main(null);
                     break;
                 case 3:
-                    // TODO: Exercício: 12 Sistema de Chat Simples com Arrays
+                    Chat.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida!");
